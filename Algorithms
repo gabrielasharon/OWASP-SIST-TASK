@@ -1,0 +1,24 @@
+//Bubble Sort algorithm :
+Step 1) Get the total number of elements. Get the total number of items in the given list
+Step 2) Determine the number of outer passes (n – 1) to be done. Its length is list minus one
+Step 3) Perform inner passes (n – 1) times for outer pass 1. Get the first element value and compare it with the second value. If the second value is less than the first value, then swap the positions
+Step 4) Repeat step 3 passes until you reach the outer pass (n – 1). Get the next element in the list then repeat the process that was performed in step 3 until all the values have been placed in their correct ascending order.
+Step 5) Return the result when all passes have been done. Return the results of the sorted list
+Step 6) Optimize Algorithm
+
+//Merge Sort Algorithm : 
+Step 1) Create copies of the subarrays L ← A[p..q] and M ← A[q+1..r].
+Step 2) Create three pointers i, j and k
+Step 3) i maintains current index of L, starting at 1
+Step 4) j maintains current index of M, starting at 1
+Step 5) k maintains the current index of A[p..q], starting at p.
+Step 6) Until we reach the end of either L or M, pick the larger among the elements from L and M and place them in the correct position at A[p..q)]
+Step 7) When we run out of elements in either L or M, pick up the remaining elements and put in A[p..q]
+
+
+//Binary Search Algorithm : 
+Step 1) Compare x with the middle element.
+Step 2) If x matches with the middle element, we return the mid index.
+Step 3) Else if x is greater than the mid element, then x can only lie in the right (greater) half subarray after the mid element. Then we apply the algorithm again for the right half.
+Step 4) Else if x is smaller, the target x must lie in the left (lower) half. So we apply the algorithm for the left half.
+
